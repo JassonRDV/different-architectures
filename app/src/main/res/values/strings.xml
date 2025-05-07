@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">different architectures</string>
+    <string name="habit">Hábito</string>
+    <string name="add_habit">Adicione um Hábito</string>
+</resources>
