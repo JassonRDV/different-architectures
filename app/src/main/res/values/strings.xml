@@ -1,5 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">different architectures</string>
-    <string name="habit">Hábito</string>
+    <string name="habit_description">Descrição do hábito</string>
     <string name="add_habit">Adicione um Hábito</string>
+    <string name="imagem_do_habito">Imagem do hábito</string>
+    <string name="icone_do_habito">Ícone do hábito</string>
+    <string name="crie_o_titulo_do_habito">Crie o título do hábito</string>
+    <string name="defina_o_seu_habito">Defina o seu hábito</string>
+    <string name="domingo">Domingo</string>
+    <string name="segunda_feira">Segunda-feira</string>
+    <string name="terca_feira">Terça-feira</string>
+    <string name="quarta_feira">Quarta-feira</string>
+    <string name="quinta_feira">Quinta-feira</string>
+    <string name="sexta_feira">Sexta-feira</string>
+    <string name="sabado">Sábado</string>
+    <string name="o_que_vai_fazer">O que vai fazer?</string>
 </resources>

@@ -6,12 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:theme="@style/Theme.Material3.Dark">
+    android:theme="@style/AppTheme">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@color/md_theme_primaryFixedDim">
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
@@ -19,7 +20,8 @@
             android:layout_height="?attr/actionBarSize"
             app:title="@string/app_name"
             app:layout_scrollFlags="scroll|enterAlways"
-            app:navigationIcon="@drawable/add"/>
+            app:navigationIcon="@drawable/arrow_back_24px"
+            app:titleCentered="true"/>
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -32,8 +34,6 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
         android:contentDescription="@string/add_habit"
-        android:src="@drawable/add">
-
-    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+        android:src="@drawable/add"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
