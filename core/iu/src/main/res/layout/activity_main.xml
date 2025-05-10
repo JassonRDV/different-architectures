@@ -2,30 +2,30 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:theme="@style/AppTheme">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/md_theme_primaryFixedDim">
+        android:background="@color/md_theme_primaryContainer">
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            app:title="@string/app_name"
             app:layout_scrollFlags="scroll|enterAlways"
             app:navigationIcon="@drawable/arrow_back_24px"
-            app:titleCentered="true"/>
+            app:title="@string/app_name"
+            app:titleCentered="true" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/habit_list" />
+    <include
+        android:id="@+id/habit_list_container"
+        layout="@layout/habit_list" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
@@ -34,6 +34,7 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
         android:contentDescription="@string/add_habit"
-        android:src="@drawable/add"/>
+        android:src="@drawable/add"
+        android:background="@color/md_theme_primaryContainer"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

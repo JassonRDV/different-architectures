@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.example.differentarchitectures.database"
-    compileSdk = project(":app").android.compileSdk
+    compileSdk = 35
 }
 
 dependencies {
-    implementation("androidx.room:room-runtime:2.7.1")
-    implementation("androidx.room:room-ktx:2.7.1")
-    ksp("androidx.room:room-compiler:2.7.1")
-    testImplementation("androidx.room:room-testing:2.7.1")
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+    ksp(libs.androidx.room.compiler)
+    testImplementation(libs.androidx.room.testing)
 }

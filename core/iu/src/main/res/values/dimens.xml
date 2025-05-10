@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Espaçamento (Padding e Margem) -->
+    <dimen name="spacing_extra_small">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_extra_large">32dp</dimen>
+    <dimen name="spacing_double_extra_large">48dp</dimen>
+
+    <!-- Tamanhos de Texto (Baseado em Text Appearance do Material Design) -->
+    <!-- Consulte a documentação do Material Design para detalhes -->
+    <dimen name="text_size_caption">12sp</dimen>
+    <dimen name="text_size_button">14sp</dimen>
+    <dimen name="text_size_body1">16sp</dimen>
+    <dimen name="text_size_body2">14sp</dimen>
+    <dimen name="text_size_subtitle1">16sp</dimen>
+    <dimen name="text_size_subtitle2">14sp</dimen>
+    <dimen name="text_size_headline6">20sp</dimen> <!-- Comum para títulos de Toolbar -->
+    <dimen name="text_size_headline5">24sp</dimen>
+    <dimen name="text_size_headline4">34sp</dimen>
+    <dimen name="text_size_headline3">48sp</dimen>
+    <dimen name="text_size_headline2">60sp</dimen>
+    <dimen name="text_size_headline1">96sp</dimen>
+
+    <!-- Elevação -->
+    <dimen name="elevation_small">2dp</dimen>
+    <dimen name="elevation_medium">4dp</dimen>
+    <dimen name="elevation_large">8dp</dimen>
+
+    <!-- Tamanhos de Ícones -->
+    <dimen name="icon_size_small">18dp</dimen>
+    <dimen name="icon_size_medium">24dp</dimen> <!-- Tamanho padrão comum -->
+    <dimen name="icon_size_large">36dp</dimen>
+
+    <!-- Raio de Canto -->
+    <dimen name="corner_radius_small">4dp</dimen>
+    <dimen name="corner_radius_medium">8dp</dimen>
+
+    <!-- Altura de Componentes Comuns -->
+    <dimen name="min_touch_target_size">48dp
+    </dimen> <!-- Altura mínima recomendada para elementos interativos -->
+    <dimen name="app_bar_height">?attr/actionBarSize</dimen> <!-- Altura padrão da AppBar -->
+
+    <!-- Exemplos Adicionais -->
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="avatar_size_small">40dp</dimen>
+    <dimen name="avatar_size_medium">56dp</dimen>
+
+</resources>
