@@ -1,4 +1,4 @@
-package com.example.differentarchitectures.iu
+package com.example.firebase
 
 import org.junit.Test
 

@@ -23,3 +23,4 @@ rootProject.name = "different architectures"
 include(":app")
 include(":core:database")
 include(":core:iu")
+include(":core:firebase")
